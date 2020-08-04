@@ -1,0 +1,46 @@
+@media only screen and (max-width: 300px) {
+    div.small {
+    }
+    body {
+        background-color: red;
+    }
+    div.medium {
+        display: none;
+    }
+
+    div.large {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:301px) and (max-width: 768px) {
+    div.small{
+        display: none;
+    }
+    div.medium {
+
+    }
+    body {
+        background-color: green;
+    }
+    div.large{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    div.small{
+        display: none;
+    }
+    div.medium{
+        display: none;
+    }
+
+    div.large {
+
+    }
+    body {
+        background-color: lightblue;
+    }
+}
