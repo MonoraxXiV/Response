@@ -1,7 +1,6 @@
 @media only screen and (max-width: 300px) {
 
 
-
     body {
         background-color: red;
         font-size: 10px;
@@ -24,35 +23,42 @@
 
 @media only screen and (min-width: 301px) and (max-width: 768px) {
     div.small {
-        display: none;
+        width: 66.6%;
+
     }
 
     div.medium {
+        width: 33.33%
+
 
     }
 
     body {
         background-color: green;
         font-size: 20px;
+
     }
 
     div.large {
-        display: none;
+
     }
 }
 
 @media only screen and (min-width: 768px) {
 
     div.small {
-        display: none;
+        width: 33%;
+        float: left;
     }
 
     div.medium {
-        display: none;
+        width: 33%;
+        float: left;
     }
 
     div.large {
-
+        width: 33%;
+        float: left;
     }
 
     body {
